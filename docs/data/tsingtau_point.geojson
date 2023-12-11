@@ -1,0 +1,370 @@
+{
+  "type": "FeatureCollection",
+  "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "@id": "https://github.com/koilebeit/masterthesis/places/p_00001",
+      "type": "Feature",
+      "properties": {
+        "title": "Tsingtau",
+        "ccodes": [
+          "CN"
+        ]
+      },
+      "when": {
+        "timespans": [
+          {
+            "start": {
+              "in": "1914"
+            }
+          }
+        ]
+      },
+      "names": [
+        {
+          "toponym": "Tsingtau",
+          "lang": "de",
+          "citation": [
+            {
+              "label": "Katasterkarte Tsingtau Zentrum",
+              "year": 1914,
+              "@id": "https://github.com/koilebeit/masterthesis/q_00001"
+            }
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "1914"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "types": [
+        {
+          "identifier": "http://vocab.getty.edu/aat/300008347",
+          "label": "inhabited place"
+        }
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.31199264718006,
+          36.06600510136128
+        ]
+      },
+      "links": [
+        {
+          "identifier": "https://www.wikidata.org/wiki/Q170322",
+          "type": "exactMatch"
+        },
+        {
+          "identifier": "http://www.geonames.org/1797929",
+          "type": "exactMatch"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "@id": "https://github.com/koilebeit/masterthesis/landforms/l_00001",
+      "type": "Feature",
+      "properties": {
+        "title": "Diederichs-Berg",
+        "ccodes": [
+          "CN"
+        ]
+      },
+      "when": {
+        "timespans": [
+          {
+            "start": {
+              "in": "1914"
+            }
+          }
+        ]
+      },
+      "names": [
+        {
+          "toponym": "Diederichs-Berg",
+          "lang": "de",
+          "citation": [
+            {
+              "label": "Katasterkarte Tsingtau Zentrum",
+              "year": 1914,
+              "@id": "https://github.com/koilebeit/masterthesis/q_00001"
+            }
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "1914"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "types": [
+        {
+          "identifier": "http://vocab.getty.edu/aat/300008777",
+          "label": "hill"
+        }
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.32662869004957,
+          36.06668341728662
+        ]
+      },
+      "links": [
+        {
+          "identifier": "https://www.wikidata.org/wiki/Q10887951",
+          "type": "exactMatch"
+        },
+        {
+          "identifier": "http://www.geonames.org/1930747",
+          "type": "exactMatch"
+        }
+      ],
+      "relations": [
+        {
+          "relationType": "gvp:broaderPartitive",
+          "relationTo": "https://github.com/koilebeit/masterthesis/places/p_00001",
+          "label": "lies in"
+        }
+      ]
+    },
+    {
+      "@id": "https://github.com/koilebeit/masterthesis/landforms/l_00002",
+      "type": "Feature",
+      "properties": {
+        "title": "Gouvernements-H\u00fcgel",
+        "ccodes": [
+          "CN"
+        ]
+      },
+      "when": {
+        "timespans": [
+          {
+            "start": {
+              "in": "1914"
+            }
+          }
+        ]
+      },
+      "names": [
+        {
+          "toponym": "Gouvernements-H\u00fcgel",
+          "lang": "de",
+          "citation": [
+            {
+              "label": "Katasterkarte Tsingtau Zentrum",
+              "year": 1914,
+              "@id": "https://github.com/koilebeit/masterthesis/q_00001"
+            }
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "1914"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.32010208339669,
+          36.06656225037332
+        ]
+      },
+      "links": [],
+      "relations": [
+        {
+          "relationType": "gvp:broaderPartitive",
+          "relationTo": "https://github.com/koilebeit/masterthesis/places/p_00001",
+          "label": "lies in"
+        }
+      ]
+    },
+    {
+      "@id": "https://github.com/koilebeit/masterthesis/landforms/l_00003",
+      "type": "Feature",
+      "properties": {
+        "title": "Aussen-Reede",
+        "ccodes": [
+          "CN"
+        ]
+      },
+      "when": {
+        "timespans": [
+          {
+            "start": {
+              "in": "1914"
+            }
+          }
+        ]
+      },
+      "names": [
+        {
+          "toponym": "Aussen-Reede",
+          "lang": "de",
+          "citation": [
+            {
+              "label": "Katasterkarte Tsingtau Zentrum",
+              "year": 1914,
+              "@id": "https://github.com/koilebeit/masterthesis/q_00001"
+            }
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "1914"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.31376913247124,
+          36.059536896813334
+        ]
+      },
+      "links": [],
+      "relations": [
+        {
+          "relationType": "gvp:broaderPartitive",
+          "relationTo": "https://github.com/koilebeit/masterthesis/places/p_00001",
+          "label": "lies in"
+        }
+      ]
+    },
+    {
+      "@id": "https://github.com/koilebeit/masterthesis/landforms/l_00004",
+      "type": "Feature",
+      "properties": {
+        "title": "Innen-Reede",
+        "ccodes": [
+          "CN"
+        ]
+      },
+      "when": {
+        "timespans": [
+          {
+            "start": {
+              "in": "1914"
+            }
+          }
+        ]
+      },
+      "names": [
+        {
+          "toponym": "Innen-Reede",
+          "lang": "de",
+          "citation": [
+            {
+              "label": "Katasterkarte Tsingtau Zentrum",
+              "year": 1914,
+              "@id": "https://github.com/koilebeit/masterthesis/q_00001"
+            }
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "1914"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.30101456930726,
+          36.06993560223297
+        ]
+      },
+      "links": [],
+      "relations": [
+        {
+          "relationType": "gvp:broaderPartitive",
+          "relationTo": "https://github.com/koilebeit/masterthesis/places/p_00001",
+          "label": "lies in"
+        }
+      ]
+    },
+    {
+      "@id": "https://github.com/koilebeit/masterthesis/landforms/l_00005",
+      "type": "Feature",
+      "properties": {
+        "title": "Kleiner Hafen",
+        "ccodes": [
+          "CN"
+        ]
+      },
+      "when": {
+        "timespans": [
+          {
+            "start": {
+              "in": "1914"
+            }
+          }
+        ]
+      },
+      "names": [
+        {
+          "toponym": "Kleiner Hafen",
+          "lang": "de",
+          "citation": [
+            {
+              "label": "Katasterkarte Tsingtau Zentrum",
+              "year": 1914,
+              "@id": "https://github.com/koilebeit/masterthesis/q_00001"
+            }
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "1914"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.30967804617332,
+          36.07308518982658
+        ]
+      },
+      "links": [],
+      "relations": [
+        {
+          "relationType": "gvp:broaderPartitive",
+          "relationTo": "https://github.com/koilebeit/masterthesis/places/p_00001",
+          "label": "lies in"
+        }
+      ]
+    
