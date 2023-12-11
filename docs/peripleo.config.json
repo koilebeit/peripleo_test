@@ -3,9 +3,9 @@
   "map_style": "./map-style-OSM.json",
   "data": [
     {
-      "name": "VisitPlus",
+      "name": "Tsingtau",
       "format": "LINKED_PLACES",
-      "src": "./docs/tsingtau.geojson",
+      "src": "./data/tsingtau.geojson",
       "attribution": "koilebeit"
     }
   ],
