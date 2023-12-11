@@ -5,7 +5,7 @@
     {
       "name": "Tsingtau",
       "format": "LINKED_PLACES",
-      "src": "./data/tsingtau_point.geojson",
+      "src": "./data/tsingtau.lp.json",
       "attribution": "koilebeit"
     }
   ],
